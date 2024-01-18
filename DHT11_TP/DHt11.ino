@@ -5,7 +5,7 @@
 #define DHTPIN 5
 #define DHTTYPE DHT11
 
-#define WIFI_SSID "Ronika"
+#define WIFI_SSID "ThingspodAcademy"
 #define WIFI_PASSWORD "*******************"
 
 const char *TOKEN = "Xs616JWi229AWnTfKX4k";
