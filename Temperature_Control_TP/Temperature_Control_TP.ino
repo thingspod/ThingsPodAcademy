@@ -81,7 +81,7 @@ RPCResponse getAutoStateCallback(const RPCData &data) {
 RPCCallback setFanState("setFanState", setFanStateCallback);
 RPCResponse setFanStateCallback(const RPCData &data) {
   fanState = data;
-  if (autoState == true) {
+  if (autoState == false) {
     if (fanState == true) {
       digitalWrite(fanPin1, HIGH);
       digitalWrite(fanPin2, LOW);
